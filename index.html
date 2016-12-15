@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>2048_VR</title>
+    <script src="libraries/p5.js" type="text/javascript"></script>
+    <script src="libraries/p5.dom.js" type="text/javascript"></script>
+    <script src="libraries/p5.sound.js" type="text/javascript"></script>
+    
+     <!-- A-Frame libraries -->
+		<script language="javascript" type="text/javascript" src="libraries/aframe.min.js"></script>
+
+		<!-- AFrameP5 library -->
+		<script language="javascript" type="text/javascript" src="libraries/aframep5.js"></script>
+		<script language="javascript" type="text/javascript" src="libraries/aframep5-experimental.js"></script>
+
+    <script src="sketch.js" type="text/javascript"></script>
+
+    <style> body {padding: 0; margin: 0;} canvas {vertical-align: top;} </style>
+  </head>
+  <body>
+      
+    	<a-scene id="VRScene">
+	      
+
+
+			<a-assets id="VRAssets">
+				
+				<img src="images/sky.jpg" id="sky" />
+		  	<img id="snow" src="images/snow.png"></img>
+		  	
+		  	Labels
+		  	<img id="p2" src="images/2.png"></img>
+		  	<img id="p4" src="images/4.png"></img>
+		  	<img id="p8" src="images/8.png"></img>
+		  	<img id="p16" src="images/16.png"></img>
+		  	<img id="p32" src="images/32.png"></img>
+		  	<img id="p64" src="images/64.png"></img>
+		  	<img id="p128" src="images/128.png"></img>
+		  	<img id="p256" src="images/256.png"></img>
+		  	<img id="p512" src="images/512.png"></img>
+		  	<img id="p1024" src="images/1024.png"></img>
+		  	<img id="p2048" src="images/2048.png"></img>
+		  	
+		  	Score
+		  	<img id="s1" src="score/1.png"></img>
+		  	<img id="s2" src="score/2.png"></img>
+		  	<img id="s3" src="score/3.png"></img>
+		  	<img id="s4" src="score/4.png"></img>
+		  	<img id="s5" src="score/5.png"></img>
+		  	<img id="s6" src="score/6.png"></img>
+		  	<img id="s7" src="score/7.png"></img>
+		  	<img id="s8" src="score/8.png"></img>
+		  	<img id="s9" src="score/9.png"></img>
+		  	<img id="s0" src="score/0.png"></img>
+		  	<img id="e" src="score/e.png"></img>
+		  	<img id="n" src="score/n.png"></img>
+		  	<img id="d" src="score/d.png"></img>
+		  	
+        Models
+        <a-asset id="plane" src="models/plane.dae"></a-asset>
+
+			</a-assets>
+			
+			<!-- Background -->
+			<a-sky src="#sky" color="rgb(255,255,255)"></a-sky>
+			
+			  
+	    </a-scene>
+    
+  </body>
+</html>

@@ -1,0 +1,225 @@
+html,
+body {
+    height: 100%;
+    font-family: 'Lato', sans-serif;    
+}
+
+#topInfo a { color: #5bc0de }
+
+h3 {
+    font-weight: 300;
+    margin: 5px 0px;
+}
+
+h4 {
+    font-weight: 300;
+    font-size: 26px
+}
+
+#wthFeeText {
+    margin-top: 20px;
+    margin-bottom: 20px;    
+}
+
+#wthFeeText h3 {
+    font-weight: bold;
+    font-size: 18px;
+}
+
+input, select, textarea { color: #555; }
+
+hr { margin: 10px 0;}
+
+.optionRow label 
+{
+    padding: 0px 10px;
+    font-weight: normal;
+}
+
+.findVal, .replaceVal { 
+    width: 100%;
+    margin-bottom: 5px;
+    height: 32px;
+}
+
+#topInfo
+{
+    text-align: center;
+}
+
+#topInfo h3 {
+    margin-top: 5px;
+}
+
+.wrap {
+    min-height: 100%;
+    height: auto;
+    margin: 0 auto -60px;
+    padding: 0 0 60px;
+}
+
+.wrap > .container {
+    padding: 70px 15px 20px;
+}
+
+.siteContent {
+    padding: 0px 15px 20px 0px;
+}
+
+.footer {
+    height: 60px;
+    background-color: #f5f5f5;
+    border-top: 1px solid #ddd;
+    padding-top: 20px;
+}
+
+.jumbotron {
+    text-align: center;
+    background-color: transparent;
+}
+
+.jumbotron .btn {
+    font-size: 21px;
+    padding: 14px 24px;
+}
+
+.not-set {
+    color: #c55;
+    font-style: italic;
+}
+
+
+.grid-view th {
+    white-space: nowrap;
+}
+
+.hint-block {
+    display: block;
+    margin-top: 5px;
+    color: #999;
+}
+
+.error-summary {
+    color: #a94442;
+    background: #fdf7f7;
+    border-left: 3px solid #eed3d7;
+    padding: 10px 20px;
+    margin: 0 0 15px 0;
+}
+
+#paymentInfo {
+    background: url('/images/build.png') no-repeat bottom right #95CEDA; 
+    position: relative; 
+    height: 200px; 
+    padding: 10px 40px; 
+    margin: 10px 0 0 0; 
+    color: white;
+}
+
+.logo {
+    padding: 15px 0px;   
+}
+
+#paymentInfo h1 {
+    margin-top: 0;    
+    display: block;
+}
+
+#goProButton {
+    margin-top: 0px;
+}
+
+#featuresWrapper {
+    position: absolute;
+    top: 10px;
+    left: 40px;
+}
+
+.features {
+    font-weight: bold; 
+    display:inline-block; 
+    width: 220px; 
+    vertical-align: top;
+}
+
+.features p {
+    margin: 2px 0;
+}
+
+.navbar {
+    margin-bottom: 0px;
+}
+
+.navbar-brand {
+    padding-top: 5px;
+}
+
+#goProTopLink {
+    padding-top: 10px;
+    padding-left: 50px;
+    font-weight: bold;
+    font-size: 1.5em;
+    display: inline-block;
+}
+
+.fb-like {
+    padding-top: 10px;
+    padding-left: 50px;
+}
+
+#twitter-widget-0 {
+    margin-top: 10px;
+    margin-left: 20px;   
+}
+
+#feedbackLink {
+    padding-top: 10px;
+    font-size: 1.5em;
+    font-weight: bold;
+    display: inline-block;    
+}
+
+#main {
+    background-color:#2B2D42;
+    color: #fff;
+}
+
+.CodeMirror {
+    border-top: 1px solid #ccc; 
+    border-bottom: 1px solid #ccc;
+    height: 400px;    
+}
+
+@media only screen and (max-width : 1900px) {
+    /* Styles */
+        
+}
+
+@media only screen and (max-width : 1440px) {
+    /* Styles */  
+}
+
+@media only screen and (max-width : 1366px) {
+    /* Styles */        
+    #goProButton {
+        margin-left: 90px;
+    }    
+}
+
+@media only screen and (max-width : 1280px) {
+    /* Styles */
+    
+}
+
+@media only screen and (max-width : 1200px) {
+    /* Styles */   
+    .features {
+        display: block;
+    }
+    
+    #paymentInfo {
+        height: 290px;
+    }
+    
+}
+
